@@ -9,6 +9,11 @@ import java.util.List;
  * @date 06/02/2018 8:48 PM
  */
 public class ShopCart {
+    /**
+     * 针对接口编程而不是实现编程
+        对扩展开放，对修改关闭
+     */
+
     List<Fruit>  items = new ArrayList();
 
     public void addItem(Fruit fruit) {
